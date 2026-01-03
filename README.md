@@ -9,12 +9,12 @@ This project demonstrates how to take in raw data, perform exploratory data anal
 ## Features
 
 * **Data Ingestion & Cleaning**: Loads raw CSV data and checks for null values or integrity errors
-* **Descriptive Statistics**: Calculates mean, median, and specific quality groupings (e.g., counting wines with ratings > 7 or < 5)
+* **Descriptive Statistics**: Calculates mean, median, and specific quality groupings (e.g. counting wines with ratings > 7 or < 5)
 * **Advanced Visualization**:
     * **Scatter Matrix**: Visualizes distributions across all feature pairs
     * **Correlation Heatmap**: Highlights direct and inverse relationships between features (e.g., fixed acidity vs. pH)
     * **Joint Grids**: Detailed regression plots for specific feature comparisons
-* **Outlier Detection**: Implements Tukey's Method (Interquartile Range) to identify and flag anomalous data points that could skew predictions
+* **Outlier Detection**: Implements Tukey's Method to identify and flag anomalous data points that could skew predictions
 
 ## Prerequisites
 
